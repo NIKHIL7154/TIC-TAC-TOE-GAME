@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Mooli&family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    background-color: rgb(255, 6, 6);
+    padding: 0;
+    box-sizing: border-box;
+    width: 98vw;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Mooli', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 500px;
+    overflow: hidden;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 3vw;
+    -webkit-border-radius: 3vw;
+    -moz-border-radius: 3vw;
+    -ms-border-radius: 3vw;
+    -o-border-radius: 3vw;
+}
+.playername{
+    margin: 5px 30px;
+    color: rgba(255, 255, 255, 0.678);
+    padding: 10px 1px;
+    width: 50%;
+    text-align: center;
+}
+.aopclass{
+    background-color: rgb(255 255 255 / 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: none;
+    color: rgb(255, 0, 0);
+    
+}
+
+#griddiv{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 8px;
+    position: static;
+    row-gap: 8px;
+    column-gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btx{
+    font-size: 35px;
+    width: 110px;
+    height: 110px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.btxclick{
+    font-size: 35px;
+    width: 110px;
+    height: 110px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.btx:hover{
+    background-color: rgba(255, 50, 50, 0.182);
+    outline: 2px solid white;
+    color: white;
+}
+.btx:active{
+    background-color: white;
+    color: black;
+}
+
+#windraw{
+    display: flex;
+    position: fixed;
+    
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    animation: abcd 1s;
+    align-items: center;
+    width: 100%;
+    -webkit-animation: abcd 1s;
+}
+
+.chotu{
+    display: flex;
+    position: fixed;
+    width: 80%;
+    
+    
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 118, 118);
+    backdrop-filter: blur(10px);
+    border-radius: 3vw;
+    padding: 30px 0;
+    
+}
+.menuinfo{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+.menubt{
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    font-size: 1.5em;
+    font-family: 'Mooli', sans-serif;;
+    background-color: white;
+}
+
+
+.menubt:hover{
+    color: white;
+    background-color: rgb(255,81,81);
+    outline: 2px solid white;
+}
+
+@keyframes abcd {
+    0%{
+        transform: scale(0.1);
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+}
+100%{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+}
+
+
+
